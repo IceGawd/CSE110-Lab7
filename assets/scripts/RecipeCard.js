@@ -126,9 +126,6 @@ class RecipeCard extends HTMLElement {
 		if (!data) return;
 
 		// A6. TODO - Select the <article> we added to the Shadow DOM in the constructor
-		console.log(this);
-		console.log(this.shadowRoot);
-		console.log(this.shadowRoot.querySelector('label'));
 
 		let article = this.shadowRoot.querySelector('label');
 
